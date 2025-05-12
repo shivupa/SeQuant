@@ -6,6 +6,7 @@ set(TEST_CASES
     # Equation-of-motion Coupled-Cluster
     "eomcc.cpp"
     "antisymmetrizer.cpp"
+    "shiv.cpp"
 )
 if (TARGET Eigen3::Eigen)
     # these examples require Eigen for full functionality
